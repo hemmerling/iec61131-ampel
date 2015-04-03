@@ -1,0 +1,1540 @@
+%!PS-Adobe-3.0
+%%Title: FC1
+%%Creator: PScript5.dll Version 5.2
+%%CreationDate: 10/10/2005 11:37:3
+%%For: Administrator
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Portrait
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (LaserWriter 12/640 PS) (2015.105) 1
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 10 11 585 831
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_VMErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if initgraphics courier setfont lmargin 720 moveto errorname
+(VMerror)eq{version cvi 2016 ge{userdict/ehsave known{clear userdict/ehsave get
+restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}if}if systemdict
+/showpage get exec(%%[ Error: )print errorname =print(; OffendingCommand: )
+print/command load =print( ]%%)= flush}if end end end}dup 0 systemdict put dup
+4 $brkpage put bind readonly put/currentpacking where{pop/setpacking where{pop
+oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(Dieser Druckauftrag erfordert mehr Speicher, als auf diesem Drucker vorhanden ist. )
+100 500
+(Versuchen Sie es mit einer oder mehreren der folgenden Methoden und drucken Sie dann erneut:)
+100 485(Wählen Sie für das Ausgabeformat die Option "Optimale Portierung".)115
+470
+(Stellen Sie sicher, daß auf der Registerkarte "Geräteeinstellungen" die Angabe für "Verfügbarer Postscript-Speicher" korrekt ist.)
+115 455(Reduzieren Sie die Anzahl der im Dokument verwendeten Schriftarten. )
+115 440(Drucken Sie das Dokument in verschiedenen Teilstücken. )115 425 12
+/Times-Roman showpage(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}
+if}bind def end version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg
+get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *Duplex None
+1 dict dup /Duplex false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *BitsPerPixel None
+1 dict dup /PreRenderingEnhance false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Smoothing False
+2 dict dup /PostRenderingEnhance false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputOrder Normal
+1 dict dup /OutputFaceUp false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *TraySwitch False
+1 dict dup /TraySwitch false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *PageSize A4
+
+   2 dict dup /PageSize [595 842] put dup /ImagingBBox null put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *InstalledMemory 4Meg
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OptionalCassette1 False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OptionalDuplexer False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 600dpi
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 600 V 0 0 -72 600 V 10.00063 830.99908 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Courier
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Euro_L2 5.0 0
+/UseT3EuroFont{/currentdistillerparams where{pop currentdistillerparams
+/CoreDistVersion get 4000 le}{false}ifelse}bind def/NewEuroT3Font?{dup/FontType
+get 3 eq{dup/EuroFont known exch/BaseFont known and}{pop false}ifelse}bind def
+/T1FontHasEuro{dup/CharStrings known not{dup NewEuroT3Font?{dup/EuroGlyphName
+get exch/EuroFont get/CharStrings get exch known{true}{false}ifelse}{pop false}
+ifelse}{dup/FontType get 1 eq{/CharStrings get/Euro known}{dup/InfoDict known{
+/InfoDict get/Euro known}{/CharStrings get/Euro known}ifelse}ifelse}ifelse}bind
+def/FontHasEuro{findfont dup/Blend known{pop true}{T1FontHasEuro}ifelse}bind
+def/EuroEncodingIdx 1 def/EuroFontHdr{12 dict begin/FontInfo 10 dict dup begin
+/version(001.000)readonly def/Notice(Copyright (c)1999 Adobe Systems
+Incorporated. All Rights Reserved.)readonly def/FullName(Euro)readonly def
+/FamilyName(Euro)readonly def/Weight(Regular)readonly def/isFixedPitch false
+def/ItalicAngle 0 def/UnderlinePosition -100 def/UnderlineThickness 50 def end
+readonly def/FontName/Euro def/Encoding 256 array 0 1 255{1 index exch/.notdef
+put}for def/PaintType 0 def/FontType 1 def/FontMatrix[0.001 0 0 0.001 0 0]def
+/FontBBox{-25 -23 1500 804}readonly def currentdict end dup/Private 20 dict dup
+begin/ND{def}def/NP{put}def/lenIV -1 def/RD{string currentfile exch
+readhexstring pop}def/-|{string currentfile exch readstring pop}executeonly def
+/|-{def}executeonly def/|{put}executeonly def/BlueValues[-20 0 706 736 547 572]
+|-/OtherBlues[-211 -203]|-/BlueScale 0.0312917 def/MinFeature{16 16}|-/StdHW
+[60]|-/StdVW[71]|-/ForceBold false def/password 5839 def/Erode{8.5 dup 3 -1
+roll 0.1 mul exch 0.5 sub mul cvi sub dup mul 71 0 dtransform dup mul exch dup
+mul add le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}def/OtherSubrs[{}{}{}
+{systemdict/internaldict known not{pop 3}{1183615869 systemdict/internaldict
+get exec dup/startlock known{/startlock get exec}{dup/strtlck known{/strtlck
+get exec}{pop 3}ifelse}ifelse}ifelse}executeonly]|-/Subrs 5 array dup 0
+<8E8B0C100C110C110C210B>put dup 1<8B8C0C100B>put dup 2<8B8D0C100B>put dup 3<0B>
+put dup 4<8E8C8E0C100C110A0B>put |- 2 index/CharStrings 256 dict dup begin
+/.notdef<8b8b0d0e>def end end put put dup/FontName get exch definefont pop}bind
+def/AddEuroGlyph{2 index exch EuroEncodingIdx 1 eq{EuroFontHdr}if systemdict
+begin/Euro findfont dup dup/Encoding get 5 1 roll/Private get begin/CharStrings
+get dup 3 index known{pop pop pop pop end end}{begin 1 index exch def end end
+end EuroEncodingIdx dup 1 add/EuroEncodingIdx exch def exch put}ifelse}bind def
+/GetNewXUID{currentdict/XUID known{[7 XUID aload pop]true}{currentdict/UniqueID
+known{[7 UniqueID]true}{false}ifelse}ifelse}bind def/BuildT3EuroFont{exch 16
+dict begin dup/FontName exch def findfont dup/Encoding get/Encoding exch def
+dup length 1 add dict copy dup/FID undef begin dup dup/FontName exch def
+/Encoding 256 array 0 1 255{1 index exch/.notdef put}for def GetNewXUID{/XUID
+exch def}if currentdict end definefont pop/BaseFont exch findfont 1000
+scalefont def/EuroFont exch findfont 1000 scalefont def pop/EuroGlyphName exch
+def/FontType 3 def/FontMatrix[.001 0 0 .001 0 0]def/FontBBox BaseFont/FontBBox
+get def/Char 1 string def/BuildChar{exch dup begin/Encoding get 1 index get
+/Euro eq{BaseFont T1FontHasEuro{false}{true}ifelse}{false}ifelse{EuroFont
+setfont pop userdict/Idx 0 put EuroFont/Encoding get{EuroGlyphName eq{exit}
+{userdict/Idx Idx 1 add put}ifelse}forall userdict/Idx get}{dup dup Encoding
+exch get BaseFont/Encoding get 3 1 roll put BaseFont setfont}ifelse Char 0 3 -1
+roll put Char stringwidth newpath 0 0 moveto Char true charpath flattenpath
+pathbbox setcachedevice 0 0 moveto Char show end}bind def currentdict end dup
+/FontName get exch definefont pop}bind def/AddEuroToT1Font{dup findfont dup
+length 10 add dict copy dup/FID undef begin/EuroFont 3 -1 roll findfont 1000
+scalefont def CharStrings dup length 1 add dict copy begin/Euro{EuroFont
+setfont pop EuroGBBox aload pop setcachedevice 0 0 moveto EuroGName glyphshow}
+bind def currentdict end/CharStrings exch def GetNewXUID{/XUID exch def}if 3 1
+roll/EuroGBBox exch def/EuroGName exch def currentdict end definefont pop}bind
+def/BuildNewFont{UseT3EuroFont{BuildT3EuroFont}{pop AddEuroToT1Font}ifelse}bind
+def/UseObliqueEuro{findfont/FontMatrix get dup 2 get 0 eq exch dup 0 get exch 3
+get eq and UseT3EuroFont or}bind def
+%%EndResource
+end reinitialize
+7500 VM?
+/Courier FontHasEuro not
+{
+/Euro.Courier
+ [600 0 17 -12 578 584 ] 
+<9CF8EC0DD1C303F88DC1037FC201F760C201F7CEC201F8A5C201F76004DB06A8FB0FE32E
+F7278B08DA8BD8A8C8B80873BA0556644870478B08278B39C56DF208F776069FC205FB94
+068B968A968B96088B928B938C9208F7A6069FC205FBB106A3EAD3CCEB8B08D18BD071B1
+63084307C106F75507550656075AAE569D438B08FB188B2D2D70FB0D085106775405D106
+7A078B7E8C7F8C7E085706090E>
+AddEuroGlyph
+/Euro /Courier /Courier-Copy BuildNewFont
+} if
+F /F0 0 /256 T /Courier mF 
+/F0S53 F0 [83.285 0 0 -83.285 0 0 ] mFS
+F0S53 Ji 
+412 70 M (SIMATIC             Ampel_Gruppe03\\SIMATIC 300\(1\)\\CPU 315-2 DP\\...\\ 10.10.2005 11:37:03)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+412 169 M (                                   FC1 - <offline>                                     )
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L2 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b
+%%EndResource
+end reinitialize
+N 4732 194 M 405 194 I 405 203 I 4732 203 I 4732 194 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 1 von 5)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+
+%%IncludeResource: font Courier-Bold
+7500 VM?
+/Courier-Bold FontHasEuro not
+{
+/Euro.Courier-Bold
+ [600 0 6 -12 585 612 ] 
+<91F8EC0DDBE803F875E7037FE701F755DC01F7D7DC01F8C47701F80FF7A615FB61068A94
+8B958B95088B928B918C9208F76E06A4DC05FB76068F0ADBE803F875E7037FE701F755DC
+01F7D7DC01F89CE701A1D4C1B6DF8B08BF8BC46DA067084A07E706F773072F068F0ADBE8
+03F875E7037FE701F755DC01F7D7DC01F8C4770157078F0ADBE803F875E7037FE701F755
+DC01F7D7DC01F89CE70165AE549C5E8B08FB138B2F386BFB11084806723A05DB0678078B
+818B818C81085306723A05E806A9FB08DD32F7288B08B28BF7039FD7D00853CF056B754E
+603B8B08448B51B56ED208F73606090E>
+AddEuroGlyph
+/Euro /Courier-Bold /Courier-Bold-Copy BuildNewFont
+} if
+F /F1 0 /256 T /Courier-Bold mF 
+/F1S64 F1 [100 0 0 -100 0 0 ] mFS
+F1S64 Ji 
+407 424 M (FC1 - <offline>)[60 60 60 60 60 60 60 60 60 60 60 60 60 60  0]xS 
+/F0S44 F0 [68 0 0 -68 0 0 ] mFS
+F0S44 Ji 
+407 508 M (""     )[41 41 41 41 41 41  0]xS 
+: 407 527 246 77 rc /F1S44 F1 [68 0 0 -68 0 0 ] mFS
+F1S44 Ji 
+407 584 M (Name: )[41 41 41 41 41  0]xS 
+; F1S44 Ji 
+1432 584 M (Familie:)[41 41 41 41 41 41 41  0]xS 
+: 407 600 287 77 rc 407 657 M (Autor: )[41 41 41 41 41 41  0]xS 
+; 1432 657 M (Version:)[41 41 41 41 41 41 41  0]xS 
+F0S44 Ji 
+1801 654 M (0.1)[41 41  0]xS 
+F1S44 Ji 
+1432 730 M (Bausteinversion:)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+F0S44 Ji 
+2129 727 M (2)S 
+F1S44 Ji 
+407 803 M (Zeitstempel)[41 41 41 41 41 41 41 41 41 41  0]xS 
+899 803 M (Code:)[41 41 41 41  0]xS 
+899 876 M (Interface:)[41 41 41 41 41 41 41 41 41  0]xS 
+F0S44 Ji 
+1432 800 M (10.10.2005 09:46:02)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+1432 873 M (04.10.2005 09:19:58)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+F1S44 Ji 
+407 949 M (L\344ngen \(Baustein / Code / Daten\):)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+ 0]xS 
+F0S44 Ji 
+1801 946 M (00220  00108  00000)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: N 407 1109 2381 12 rp C 
+0.5 0 scol  L ; : N 407 1790 2381 13 rp C 
+0.5 0 scol  L ; : N 407 1109 6 694 rp C 
+0.5 0 scol  L ; : N 2776 1109 12 694 rp C 
+0.5 0 scol  L ; : N 407 1115 2369 113 rp C 
+ L ; 1 0 scol 
+%%IncludeResource: font Helvetica-Bold
+7500 VM?
+/Helvetica-Bold FontHasEuro not
+{
+/Euro.Helvetica-Bold
+ [556 0 12 -19 563 710 ] 
+<97F8C00DDBF7240378F70401F774EA01F803EA01F8EAF70401F8BBF9011571B141BE278B
+08FB278B303173FB32085906642C05DB0676078B828C828B82086206632C05E506A8FB3A
+EC3EF71B8B08C18BC192B9A908F71407676C54754C8B083B8B6ED483C508F72C06B3EA05
+FB5E06BB07F77106B3EA05FB91069AE5B2B9CC8B08C98BB26FA17408A07691828F830809
+0E>
+AddEuroGlyph
+/Euro /Helvetica-Bold /Helvetica-Bold-Copy BuildNewFont
+} if
+F /F2 0 /256 T /Helvetica-Bold mF 
+/F2S4B F2 [75 0 0 -75 0 0 ] mFS
+F2S4B Ji 
+520 1198 M ( Name )[21 54 42 67 42  0]xS 
+920 1198 M ( Datentyp )[21 54 42 25 42 46 25 38 46  0]xS 
+1370 1198 M ( Adresse )[21 53 46 29 42 42 42 42  0]xS 
+1770 1198 M ( Anfangswert )[21 53 46 25 42 46 46 42 60 42 29 25  0]xS 
+2301 1198 M ( Kommentar )[21 54 46 67 67 42 46 25 42 29  0]xS 
+: N 407 1115 2369 6 rp C 
+0.5 0 scol  L ; : N 407 1228 2369 93 rp C 
+0.754 0 scol  L ; 0 0 scol 426 1304 M (  IN )[21 21 21 54  0]xS 
+
+%%IncludeResource: font Helvetica
+7500 VM?
+/Helvetica FontHasEuro not
+{
+/Euro.Helvetica
+ [556 0 24 -19 541 703 ] 
+<A3F8C00DD4E90378DA01F779D301F808D301F904DA01F899F908156CB447AD338B08FB2D
+8B372B7BFB37085806724305D30644075B06724305DA06A0FB36E035F7218B08E08BCDB7
+939208EE077A71405E418B083F8B4CCE84F108F76506A3D305FB8306D207F79C06A3D305
+FBB10692E2B7E8F28B08E08BBE62A45A08090E>
+AddEuroGlyph
+/Euro /Helvetica /Helvetica-Copy BuildNewFont
+} if
+F /F3 0 /256 T /Helvetica mF 
+/F3S4B F3 [75 0 0 -75 0 0 ] mFS
+F3S4B Ji 
+1332 1301 M (0.0)[42 21  0]xS 
+: N 407 1228 2369 6 rp C 
+0.5 0 scol  L ; : N 407 1321 2369 94 rp C 
+0.754 0 scol  L ; F2S4B Ji 
+426 1398 M (  OUT )[21 21 58 54 46  0]xS 
+F3S4B Ji 
+1332 1395 M (0.0)[42 21  0]xS 
+: N 407 1321 2369 7 rp C 
+0.5 0 scol  L ; : N 407 1415 2369 94 rp C 
+0.754 0 scol  L ; F2S4B Ji 
+426 1491 M (  IN_OUT )[21 21 21 54 42 58 54 46  0]xS 
+F3S4B Ji 
+1332 1488 M (0.0)[42 21  0]xS 
+: N 407 1415 2369 6 rp C 
+0.5 0 scol  L ; : N 407 1509 2369 94 rp C 
+0.754 0 scol  L ; F2S4B Ji 
+426 1585 M (  TEMP )[21 21 46 50 63 50  0]xS 
+F3S4B Ji 
+1332 1582 M (0.0)[42 21  0]xS 
+: N 407 1509 2369 6 rp C 
+0.5 0 scol  L ; : N 407 1603 2369 93 rp C 
+0.754 0 scol  L ; F2S4B Ji 
+426 1679 M (  RETURN )[21 21 54 50 46 54 54 54  0]xS 
+F3S4B Ji 
+1332 1676 M (0.0)[42 21  0]xS 
+: N 407 1603 2369 6 rp C 
+0.5 0 scol  L ; : N 407 1696 2369 94 rp C 
+1 0 scol  L ; 426 1770 M (    RET_VAL )[21 21 21 21 54 50 45 42 50 50 42  0]xS 
+1332 1770 M (0.0)[42 21  0]xS 
+: N 407 1696 2369 7 rp C 
+0.5 0 scol  L ; : N 407 1115 6 675 rp C 
+0.5 0 scol  L ; : N 407 1115 6 675 rp C 
+0.5 0 scol  L ; : N 407 1228 6 562 rp C 
+0.5 0 scol  L ; : N 407 1321 6 469 rp C 
+0.5 0 scol  L ; : N 407 1415 6 375 rp C 
+0.5 0 scol  L ; : N 407 1509 6 281 rp C 
+0.5 0 scol  L ; : N 407 1603 6 187 rp C 
+0.5 0 scol  L ; : N 407 1696 6 94 rp C 
+0.5 0 scol  L ; : N 876 1115 6 675 rp C 
+0.5 0 scol  L ; : N 1313 1115 7 675 rp C 
+0.5 0 scol  L ; : N 1751 1115 6 675 rp C 
+0.5 0 scol  L ; : N 2282 1115 6 675 rp C 
+0.5 0 scol  L ; F1S44 Ji 
+419 2235 M (Baustein: FC1  )[41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+1046 2235 M (Simulation einer Fussgaengerampel)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+ 0]xS 
+1 Lj 1 Lc 7 Lw solid : 407 2161 4275 11 rc N 407 2166 M 4682 2166 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2161 6 114 rc N 407 2166 M 407 2269 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2161 5 114 rc N 4682 2166 M 4682 2269 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2264 4275 11 rc N 407 2269 M 4682 2269 I : [ 1 0 0 1 407 340 ] concat K 
+; ; F0S44 Ji 
+419 2378 M (Simulation einer Fussgaengerampel)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+ 0]xS 
+: 407 2246 6 169 rc N 407 2251 M 407 2409 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2246 5 169 rc N 4682 2251 M 4682 2409 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2404 4275 11 rc N 407 2409 M 4682 2409 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 431 2670 M (Netzwerk: 1      Ermittelung der Gruenanforderung fuer Fussgaenger)
+[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41  0]xS 
+: 407 2599 4275 11 rc N 407 2604 M 4682 2604 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2599 6 114 rc N 407 2604 M 407 2707 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2599 5 114 rc N 4682 2604 M 4682 2707 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2702 4275 11 rc N 407 2707 M 4682 2707 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 2816 M (Ermittelung der Gruenanforderung fuer Fussgaenger)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 2684 6 169 rc N 407 2689 M 407 2847 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2684 5 169 rc N 4682 2689 M 4682 2847 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2842 4275 11 rc N 407 2847 M 4682 2847 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 2957 5905 6 149 rp C 
+1 0 scol  L ; 1 Lw solid N 2959 5906 M 3328 5906 I K 
+N 3328 5906 M 3328 6052 I K 
+N 3328 6052 M 2959 6052 I K 
+N 2959 6052 M 2959 5906 I K 
+3124 5962 M (=)S 
+: N 2465 5321 6 733 rp C 
+1 0 scol  L ; N 2467 5322 M 2836 5322 I K 
+N 2836 5322 M 2836 6052 I K 
+N 2836 6052 M 2467 6052 I K 
+N 2467 6052 M 2467 5322 I K 
+2632 5378 M (&)S 
+: N 1973 4591 6 879 rp C 
+1 0 scol  L ; N 1975 4592 M 2344 4592 I K 
+N 2344 4592 M 2344 5468 I K 
+N 2344 5468 M 1975 5468 I K 
+N 1975 5468 M 1975 4592 I K 
+2099 4648 M (>=1)[41 41  0]xS 
+: N 1481 3934 6 806 rp C 
+1 0 scol  L ; N 1483 3935 M 1852 3935 I K 
+N 1852 3935 M 1852 4738 I K 
+N 1852 4738 M 1483 4738 I K 
+N 1483 4738 M 1483 3935 I K 
+1648 3991 M (&)S 
+: N 989 2912 6 1171 rp C 
+1 0 scol  L ; N 991 2913 M 1360 2913 I K 
+N 1360 2913 M 1360 4081 I K 
+N 1360 4081 M 991 4081 I K 
+N 991 4081 M 991 2913 I K 
+1115 2969 M (>=1)[41 41  0]xS 
+0.445 0 scol 602 3040 M (E0.0)[41 41 41  0]xS 
+601 3040 M (E0.0)[41 41 41  0]xS 
+478 3113 M (1.Gruenanf)[41 41 41 41 41 41 41 41 41  0]xS 
+519 3186 M (orderung)[41 41 41 41 41 41 41  0]xS 
+601 3259 M (fuer)[41 41 41  0]xS 
+478 3332 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+560 3405 M (rampel)[41 41 41 41 41  0]xS 
+0 0 scol 724 3478 M ("S1")[41 41 41  0]xS 
+: N 950 3439 39 43 rp C 
+1 0 scol  L ; N 990 3460 M 908 3460 I K 
+N 990 3461 M 908 3461 I K 
+0.445 0 scol 602 3624 M (E0.1)[41 41 41  0]xS 
+601 3624 M (E0.1)[41 41 41  0]xS 
+478 3697 M (2.Gruenanf)[41 41 41 41 41 41 41 41 41  0]xS 
+519 3770 M (orderung)[41 41 41 41 41 41 41  0]xS 
+601 3843 M (fuer)[41 41 41  0]xS 
+478 3916 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+560 3989 M (rampel)[41 41 41 41 41  0]xS 
+0 0 scol 724 4062 M ("S2")[41 41 41  0]xS 
+: N 950 4023 39 43 rp C 
+1 0 scol  L ; N 990 4044 M 908 4044 I K 
+N 990 4045 M 908 4045 I K 
+N 1360 4044 M 1404 4044 I K 
+N 1360 4045 M 1404 4045 I K 
+N 1401 4044 M 1404 4044 I K 
+N 1401 4045 M 1404 4045 I K 
+: N 1442 4023 39 43 rp C 
+1 0 scol  L ; N 1482 4044 M 1400 4044 I K 
+N 1482 4045 M 1400 4045 I K 
+0.445 0 scol 1135 4208 M (T6)[41  0]xS 
+1134 4208 M (T6)[41  0]xS 
+1072 4281 M (Timer)[41 41 41 41  0]xS 
+1093 4354 M (fuer)[41 41 41  0]xS 
+970 4427 M (Verzoegeru)[41 41 41 41 41 41 41 41 41  0]xS 
+1052 4500 M (ng der)[41 41 41 41 41  0]xS 
+970 4573 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+1052 4646 M (derung)[41 41 41 41 41  0]xS 
+0 0 scol 1216 4719 M ("T6")[41 41 41  0]xS 
+: N 1442 4680 39 43 rp C 
+1 0 scol  L ; N 1482 4701 M 1400 4701 I K 
+N 1482 4702 M 1400 4702 I K 
+N 1852 4701 M 1896 4701 I K 
+N 1852 4702 M 1896 4702 I K 
+N 1893 4701 M 1896 4701 I K 
+N 1893 4702 M 1896 4702 I K 
+: N 1934 4680 39 43 rp C 
+1 0 scol  L ; N 1974 4701 M 1892 4701 I K 
+N 1974 4702 M 1892 4702 I K 
+0.445 0 scol 1586 4865 M (M0.0)[41 41 41  0]xS 
+1585 4865 M (M0.0)[41 41 41  0]xS 
+1544 4938 M (Merker)[41 41 41 41 41  0]xS 
+1585 5011 M (fuer)[41 41 41  0]xS 
+1462 5084 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+1544 5157 M (derung)[41 41 41 41 41  0]xS 
+1585 5230 M (fuer)[41 41 41  0]xS 
+1462 5303 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+1646 5376 M (r)S 
+0 0 scol 1708 5449 M ("M0")[41 41 41  0]xS 
+: N 1934 5410 39 43 rp C 
+1 0 scol  L ; N 1974 5431 M 1892 5431 I K 
+N 1974 5432 M 1892 5432 I K 
+N 2344 5431 M 2388 5431 I K 
+N 2344 5432 M 2388 5432 I K 
+N 2385 5431 M 2388 5431 I K 
+N 2385 5432 M 2388 5432 I K 
+: N 2426 5410 39 43 rp C 
+1 0 scol  L ; N 2466 5431 M 2384 5431 I K 
+N 2466 5432 M 2384 5432 I K 
+0.445 0 scol 2119 5595 M (T5)[41  0]xS 
+2118 5595 M (T5)[41  0]xS 
+2056 5668 M (Timer)[41 41 41 41  0]xS 
+2077 5741 M (fuer)[41 41 41  0]xS 
+1954 5814 M (Rot-/Gelbp)[41 41 41 41 41 41 41 41 41  0]xS 
+1974 5887 M (hase fuer)[41 41 41 41 41 41 41 41  0]xS 
+2056 5960 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 2200 6033 M ("T5")[41 41 41  0]xS 
+N 2466 6015 M 2466 6003 2457 5994 2446 5994 -c 2434 5994 2426 6003 2426 6015 -c 2426 6026 2434 6036 2446 6036 -c 2457 6036 2466 6026 2466 6015 -c C 
+: 1 0 scol  O ; K 
+N 2425 6015 M 2384 6015 I K 
+N 2425 6016 M 2384 6016 I K 
+N 2836 6015 M 2880 6015 I K 
+N 2836 6016 M 2880 6016 I K 
+0.445 0 scol 3062 5303 M (M0.0)[41 41 41  0]xS 
+3061 5303 M (M0.0)[41 41 41  0]xS 
+3020 5376 M (Merker)[41 41 41 41 41  0]xS 
+3061 5449 M (fuer)[41 41 41  0]xS 
+2938 5522 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+3020 5595 M (derung)[41 41 41 41 41  0]xS 
+3061 5668 M (fuer)[41 41 41  0]xS 
+2938 5741 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+3122 5814 M (r)S 
+0 0 scol 3061 5887 M ("M0")[41 41 41  0]xS 
+N 2877 6015 M 2880 6015 I K 
+N 2877 6016 M 2880 6016 I K 
+: N 2918 5994 39 43 rp C 
+1 0 scol  L ; N 2958 6015 M 2876 6015 I K 
+N 2958 6016 M 2876 6016 I K 
+LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Page: 2 2
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol F0S53 Ji 
+412 70 M (SIMATIC             Ampel_Gruppe03\\SIMATIC 300\(1\)\\CPU 315-2 DP\\...\\ 10.10.2005 11:37:03)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+412 169 M (                                   FC1 - <offline>                                     )
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+N 4732 194 M 405 194 I 405 203 I 4732 203 I 4732 194 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 2 von 5)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+F0S44 Ji 
+431 540 M (Netzwerk: 2      Gruenphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41  0]xS 
+1 Lj 1 Lc 7 Lw solid : 407 469 4275 11 rc N 407 474 M 4682 474 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 469 6 114 rc N 407 474 M 407 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 469 5 114 rc N 4682 474 M 4682 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 572 4275 11 rc N 407 577 M 4682 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 686 M (Gruenphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 554 6 169 rc N 407 559 M 407 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 554 5 169 rc N 4682 559 M 4682 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 712 4275 11 rc N 407 717 M 4682 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 1481 1366 6 149 rp C 
+1 0 scol  L ; 1 Lw solid N 1483 1367 M 1852 1367 I K 
+N 1852 1367 M 1852 1513 I K 
+N 1852 1513 M 1483 1513 I K 
+N 1483 1513 M 1483 1367 I K 
+1648 1423 M (=)S 
+: N 989 782 6 733 rp C 
+1 0 scol  L ; N 991 783 M 1360 783 I K 
+N 1360 783 M 1360 1513 I K 
+N 1360 1513 M 991 1513 I K 
+N 991 1513 M 991 783 I K 
+1156 839 M (&)S 
+0.445 0 scol 602 910 M (M0.0)[41 41 41  0]xS 
+601 910 M (M0.0)[41 41 41  0]xS 
+560 983 M (Merker)[41 41 41 41 41  0]xS 
+601 1056 M (fuer)[41 41 41  0]xS 
+478 1129 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+560 1202 M (derung)[41 41 41 41 41  0]xS 
+601 1275 M (fuer)[41 41 41  0]xS 
+478 1348 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+662 1421 M (r)S 
+0 0 scol 724 1494 M ("M0")[41 41 41  0]xS 
+N 990 1476 M 990 1464 981 1455 970 1455 -c 958 1455 950 1464 950 1476 -c 950 1487 958 1497 970 1497 -c 981 1497 990 1487 990 1476 -c C 
+: 1 0 scol  O ; K 
+N 949 1476 M 908 1476 I K 
+N 949 1477 M 908 1477 I K 
+N 1360 1476 M 1404 1476 I K 
+N 1360 1477 M 1404 1477 I K 
+0.445 0 scol 1586 1056 M (A0.7)[41 41 41  0]xS 
+1585 1056 M (A0.7)[41 41 41  0]xS 
+1544 1129 M (Gruene)[41 41 41 41 41  0]xS 
+1462 1202 M (Verkehrsam)[41 41 41 41 41 41 41 41 41  0]xS 
+1605 1275 M (pel)[41 41  0]xS 
+0 0 scol 1564 1348 M ("H13")[41 41 41 41  0]xS 
+N 1401 1476 M 1404 1476 I K 
+N 1401 1477 M 1404 1477 I K 
+: N 1442 1455 39 43 rp C 
+1 0 scol  L ; N 1482 1476 M 1400 1476 I K 
+N 1482 1477 M 1400 1477 I K 
+431 1854 M (Netzwerk: 3      Timerstart fuer Gelphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+7 Lw solid : 407 1783 4275 11 rc N 407 1788 M 4682 1788 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 1783 6 114 rc N 407 1788 M 407 1891 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 1783 5 114 rc N 4682 1788 M 4682 1891 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 1886 4275 11 rc N 407 1891 M 4682 1891 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 2000 M (Timerstart fuer Gelphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41  0]xS 
+: 407 1868 6 169 rc N 407 1873 M 407 2031 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 1868 5 169 rc N 4682 1873 M 4682 2031 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2026 4275 11 rc N 407 2031 M 4682 2031 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 1481 2680 6 295 rp C 
+1 0 scol  L ; 1 Lw solid N 1483 2681 M 1852 2681 I K 
+N 1852 2681 M 1852 2973 I K 
+N 1852 2973 M 1483 2973 I K 
+N 1483 2973 M 1483 2681 I K 
+1627 2737 M (SE)[41  0]xS 
+: N 989 2096 6 733 rp C 
+1 0 scol  L ; N 991 2097 M 1360 2097 I K 
+N 1360 2097 M 1360 2827 I K 
+N 1360 2827 M 991 2827 I K 
+N 991 2827 M 991 2097 I K 
+1156 2153 M (&)S 
+0.445 0 scol 602 2224 M (M0.0)[41 41 41  0]xS 
+601 2224 M (M0.0)[41 41 41  0]xS 
+560 2297 M (Merker)[41 41 41 41 41  0]xS 
+601 2370 M (fuer)[41 41 41  0]xS 
+478 2443 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+560 2516 M (derung)[41 41 41 41 41  0]xS 
+601 2589 M (fuer)[41 41 41  0]xS 
+478 2662 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+662 2735 M (r)S 
+0 0 scol 724 2808 M ("M0")[41 41 41  0]xS 
+: N 950 2769 39 43 rp C 
+1 0 scol  L ; N 990 2790 M 908 2790 I K 
+N 990 2791 M 908 2791 I K 
+N 1360 2790 M 1404 2790 I K 
+N 1360 2791 M 1404 2791 I K 
+0.445 0 scol 1627 2224 M (T2)[41  0]xS 
+1626 2224 M (T2)[41  0]xS 
+1564 2297 M (Timer)[41 41 41 41  0]xS 
+1585 2370 M (fuer)[41 41 41  0]xS 
+1482 2443 M (Gelbphase)[41 41 41 41 41 41 41 41  0]xS 
+1585 2516 M (fuer)[41 41 41  0]xS 
+1564 2589 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 1585 2662 M ("T2")[41 41 41  0]xS 
+N 1401 2790 M 1404 2790 I K 
+N 1401 2791 M 1404 2791 I K 
+: N 1442 2769 39 43 rp C 
+1 0 scol  L ; N 1482 2790 M 1400 2790 I K 
+N 1482 2791 M 1400 2791 I K 
+1134 2954 M (S5T#3S)[41 41 41 41 41  0]xS 
+: N 1442 2915 39 43 rp C 
+1 0 scol  L ; N 1482 2936 M 1400 2936 I K 
+N 1482 2937 M 1400 2937 I K 
+1486 2954 M (TW)[41  0]xS 
+431 3314 M (Netzwerk: 4      Gelbphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41  0]xS 
+7 Lw solid : 407 3243 4275 11 rc N 407 3248 M 4682 3248 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 3243 6 114 rc N 407 3248 M 407 3351 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 3243 5 114 rc N 4682 3248 M 4682 3351 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 3346 4275 11 rc N 407 3351 M 4682 3351 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 3460 M (Gelbphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 3328 6 169 rc N 407 3333 M 407 3491 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 3328 5 169 rc N 4682 3333 M 4682 3491 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 3486 4275 11 rc N 407 3491 M 4682 3491 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 2465 4724 6 149 rp C 
+1 0 scol  L ; 1 Lw solid N 2467 4725 M 2836 4725 I K 
+N 2836 4725 M 2836 4871 I K 
+N 2836 4871 M 2467 4871 I K 
+N 2467 4871 M 2467 4725 I K 
+2632 4781 M (=)S 
+: N 1973 3994 6 879 rp C 
+1 0 scol  L ; N 1975 3995 M 2344 3995 I K 
+N 2344 3995 M 2344 4871 I K 
+N 2344 4871 M 1975 4871 I K 
+N 1975 4871 M 1975 3995 I K 
+2140 4051 M (&)S 
+: N 989 3556 6 1317 rp C 
+1 0 scol  L ; N 991 3557 M 1360 3557 I K 
+N 1360 3557 M 1360 4871 I K 
+N 1360 4871 M 991 4871 I K 
+N 991 4871 M 991 3557 I K 
+1115 3613 M (>=1)[41 41  0]xS 
+0.445 0 scol 643 3684 M (T2)[41  0]xS 
+642 3684 M (T2)[41  0]xS 
+580 3757 M (Timer)[41 41 41 41  0]xS 
+601 3830 M (fuer)[41 41 41  0]xS 
+498 3903 M (Gelbphase)[41 41 41 41 41 41 41 41  0]xS 
+601 3976 M (fuer)[41 41 41  0]xS 
+580 4049 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 724 4122 M ("T2")[41 41 41  0]xS 
+N 990 4104 M 990 4092 981 4083 970 4083 -c 958 4083 950 4092 950 4104 -c 950 4115 958 4125 970 4125 -c 981 4125 990 4115 990 4104 -c C 
+: 1 0 scol  O ; K 
+N 949 4104 M 908 4104 I K 
+N 949 4105 M 908 4105 I K 
+0.445 0 scol 643 4268 M (T4)[41  0]xS 
+642 4268 M (T4)[41  0]xS 
+580 4341 M (Timer)[41 41 41 41  0]xS 
+601 4414 M (fuer)[41 41 41  0]xS 
+478 4487 M (Verzoegeru)[41 41 41 41 41 41 41 41 41  0]xS 
+560 4560 M (ng der)[41 41 41 41 41  0]xS 
+498 4633 M (Gelbphase)[41 41 41 41 41 41 41 41  0]xS 
+601 4706 M (fuer)[41 41 41  0]xS 
+580 4779 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 724 4852 M ("T4")[41 41 41  0]xS 
+: N 950 4813 39 43 rp C 
+1 0 scol  L ; N 990 4834 M 908 4834 I K 
+N 990 4835 M 908 4835 I K 
+N 1360 4834 M 1404 4834 I K 
+N 1360 4835 M 1404 4835 I K 
+0.445 0 scol 1586 4122 M (M0.0)[41 41 41  0]xS 
+1585 4122 M (M0.0)[41 41 41  0]xS 
+1544 4195 M (Merker)[41 41 41 41 41  0]xS 
+1585 4268 M (fuer)[41 41 41  0]xS 
+1462 4341 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+1544 4414 M (derung)[41 41 41 41 41  0]xS 
+1585 4487 M (fuer)[41 41 41  0]xS 
+1462 4560 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+1646 4633 M (r)S 
+0 0 scol 1708 4706 M ("M0")[41 41 41  0]xS 
+: N 1934 4667 39 43 rp C 
+1 0 scol  L ; N 1974 4688 M 1892 4688 I K 
+N 1974 4689 M 1892 4689 I K 
+N 1401 4834 M 1896 4834 I K 
+N 1401 4835 M 1896 4835 I K 
+: N 1934 4813 39 43 rp C 
+1 0 scol  L ; N 1974 4834 M 1892 4834 I K 
+N 1974 4835 M 1892 4835 I K 
+N 2344 4834 M 2388 4834 I K 
+N 2344 4835 M 2388 4835 I K 
+0.445 0 scol 2570 4414 M (A0.6)[41 41 41  0]xS 
+2569 4414 M (A0.6)[41 41 41  0]xS 
+2548 4487 M (Gelbe)[41 41 41 41  0]xS 
+2446 4560 M (Verkehrsam)[41 41 41 41 41 41 41 41 41  0]xS 
+2589 4633 M (pel)[41 41  0]xS 
+0 0 scol 2548 4706 M ("H12")[41 41 41 41  0]xS 
+N 2385 4834 M 2388 4834 I K 
+N 2385 4835 M 2388 4835 I K 
+: N 2426 4813 39 43 rp C 
+1 0 scol  L ; N 2466 4834 M 2384 4834 I K 
+N 2466 4835 M 2384 4835 I K 
+LH
+(%%[Page: 2]%%) = 
+%%PageTrailer
+
+%%Page: 3 3
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol F0S53 Ji 
+412 70 M (SIMATIC             Ampel_Gruppe03\\SIMATIC 300\(1\)\\CPU 315-2 DP\\...\\ 10.10.2005 11:37:03)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+412 169 M (                                   FC1 - <offline>                                     )
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+N 4732 194 M 405 194 I 405 203 I 4732 203 I 4732 194 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 3 von 5)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+F0S44 Ji 
+431 540 M (Netzwerk: 5      Rotphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41  0]xS 
+1 Lj 1 Lc 7 Lw solid : 407 469 4275 11 rc N 407 474 M 4682 474 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 469 6 114 rc N 407 474 M 407 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 469 5 114 rc N 4682 474 M 4682 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 572 4275 11 rc N 407 577 M 4682 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 686 M (Rotphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 554 6 169 rc N 407 559 M 407 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 554 5 169 rc N 4682 559 M 4682 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 712 4275 11 rc N 407 717 M 4682 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 1481 1950 6 149 rp C 
+1 0 scol  L ; 1 Lw solid N 1483 1951 M 1852 1951 I K 
+N 1852 1951 M 1852 2097 I K 
+N 1852 2097 M 1483 2097 I K 
+N 1483 2097 M 1483 1951 I K 
+1648 2007 M (=)S 
+: N 989 782 6 1317 rp C 
+1 0 scol  L ; N 991 783 M 1360 783 I K 
+N 1360 783 M 1360 2097 I K 
+N 1360 2097 M 991 2097 I K 
+N 991 2097 M 991 783 I K 
+1156 839 M (&)S 
+0.445 0 scol 602 910 M (M0.0)[41 41 41  0]xS 
+601 910 M (M0.0)[41 41 41  0]xS 
+560 983 M (Merker)[41 41 41 41 41  0]xS 
+601 1056 M (fuer)[41 41 41  0]xS 
+478 1129 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+560 1202 M (derung)[41 41 41 41 41  0]xS 
+601 1275 M (fuer)[41 41 41  0]xS 
+478 1348 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+662 1421 M (r)S 
+0 0 scol 724 1494 M ("M0")[41 41 41  0]xS 
+: N 950 1455 39 43 rp C 
+1 0 scol  L ; N 990 1476 M 908 1476 I K 
+N 990 1477 M 908 1477 I K 
+0.445 0 scol 643 1640 M (T2)[41  0]xS 
+642 1640 M (T2)[41  0]xS 
+580 1713 M (Timer)[41 41 41 41  0]xS 
+601 1786 M (fuer)[41 41 41  0]xS 
+498 1859 M (Gelbphase)[41 41 41 41 41 41 41 41  0]xS 
+601 1932 M (fuer)[41 41 41  0]xS 
+580 2005 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 724 2078 M ("T2")[41 41 41  0]xS 
+: N 950 2039 39 43 rp C 
+1 0 scol  L ; N 990 2060 M 908 2060 I K 
+N 990 2061 M 908 2061 I K 
+N 1360 2060 M 1404 2060 I K 
+N 1360 2061 M 1404 2061 I K 
+0.445 0 scol 1586 1640 M (A0.5)[41 41 41  0]xS 
+1585 1640 M (A0.5)[41 41 41  0]xS 
+1585 1713 M (Rote)[41 41 41  0]xS 
+1462 1786 M (Verkehrsam)[41 41 41 41 41 41 41 41 41  0]xS 
+1605 1859 M (pel)[41 41  0]xS 
+0 0 scol 1564 1932 M ("H11")[41 41 41 41  0]xS 
+N 1401 2060 M 1404 2060 I K 
+N 1401 2061 M 1404 2061 I K 
+: N 1442 2039 39 43 rp C 
+1 0 scol  L ; N 1482 2060 M 1400 2060 I K 
+N 1482 2061 M 1400 2061 I K 
+431 2438 M (Netzwerk: 6      Timerstart fuer Gruenphase fuer Fussgaenger)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+7 Lw solid : 407 2367 4275 11 rc N 407 2372 M 4682 2372 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2367 6 114 rc N 407 2372 M 407 2475 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2367 5 114 rc N 4682 2372 M 4682 2475 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2470 4275 11 rc N 407 2475 M 4682 2475 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 2584 M (Timerstart fuer Gruenphase fuer Fussgaenger)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 2452 6 169 rc N 407 2457 M 407 2615 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2452 5 169 rc N 4682 2457 M 4682 2615 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2610 4275 11 rc N 407 2615 M 4682 2615 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 1481 3264 6 295 rp C 
+1 0 scol  L ; 1 Lw solid N 1483 3265 M 1852 3265 I K 
+N 1852 3265 M 1852 3557 I K 
+N 1852 3557 M 1483 3557 I K 
+N 1483 3557 M 1483 3265 I K 
+1627 3321 M (SE)[41  0]xS 
+: N 989 2972 6 441 rp C 
+1 0 scol  L ; N 991 2973 M 1360 2973 I K 
+N 1360 2973 M 1360 3411 I K 
+N 1360 3411 M 991 3411 I K 
+N 991 3411 M 991 2973 I K 
+1156 3029 M (&)S 
+0.445 0 scol 602 3100 M (A0.5)[41 41 41  0]xS 
+601 3100 M (A0.5)[41 41 41  0]xS 
+601 3173 M (Rote)[41 41 41  0]xS 
+478 3246 M (Verkehrsam)[41 41 41 41 41 41 41 41 41  0]xS 
+621 3319 M (pel)[41 41  0]xS 
+0 0 scol 683 3392 M ("H11")[41 41 41 41  0]xS 
+: N 950 3353 39 43 rp C 
+1 0 scol  L ; N 990 3374 M 908 3374 I K 
+N 990 3375 M 908 3375 I K 
+N 1360 3374 M 1404 3374 I K 
+N 1360 3375 M 1404 3375 I K 
+0.445 0 scol 1627 2735 M (T3)[41  0]xS 
+1626 2735 M (T3)[41  0]xS 
+1564 2808 M (Timer)[41 41 41 41  0]xS 
+1585 2881 M (fuer)[41 41 41  0]xS 
+1462 2954 M (Gruenphase)[41 41 41 41 41 41 41 41 41  0]xS 
+1564 3027 M ( fuer)[41 41 41 41  0]xS 
+1462 3100 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+1646 3173 M (r)S 
+0 0 scol 1585 3246 M ("T3")[41 41 41  0]xS 
+N 1401 3374 M 1404 3374 I K 
+N 1401 3375 M 1404 3375 I K 
+: N 1442 3353 39 43 rp C 
+1 0 scol  L ; N 1482 3374 M 1400 3374 I K 
+N 1482 3375 M 1400 3375 I K 
+1093 3538 M (S5T#10S)[41 41 41 41 41 41  0]xS 
+: N 1442 3499 39 43 rp C 
+1 0 scol  L ; N 1482 3520 M 1400 3520 I K 
+N 1482 3521 M 1400 3521 I K 
+1486 3538 M (TW)[41  0]xS 
+431 3898 M (Netzwerk: 7      Gruenphase fuer Fussgaenger)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41  0]xS 
+7 Lw solid : 407 3827 4275 11 rc N 407 3832 M 4682 3832 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 3827 6 114 rc N 407 3832 M 407 3935 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 3827 5 114 rc N 4682 3832 M 4682 3935 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 3930 4275 11 rc N 407 3935 M 4682 3935 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 4044 M (Gruenphase fuer Fussgaenger)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 3912 6 169 rc N 407 3917 M 407 4075 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 3912 5 169 rc N 4682 3917 M 4682 4075 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 4070 4275 11 rc N 407 4075 M 4682 4075 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 1481 5089 6 149 rp C 
+1 0 scol  L ; 1 Lw solid N 1483 5090 M 1852 5090 I K 
+N 1852 5090 M 1852 5236 I K 
+N 1852 5236 M 1483 5236 I K 
+N 1483 5236 M 1483 5090 I K 
+1648 5146 M (=)S 
+: N 989 4140 6 1098 rp C 
+1 0 scol  L ; N 991 4141 M 1360 4141 I K 
+N 1360 4141 M 1360 5236 I K 
+N 1360 5236 M 991 5236 I K 
+N 991 5236 M 991 4141 I K 
+1156 4197 M (&)S 
+0.445 0 scol 602 4268 M (A0.5)[41 41 41  0]xS 
+601 4268 M (A0.5)[41 41 41  0]xS 
+601 4341 M (Rote)[41 41 41  0]xS 
+478 4414 M (Verkehrsam)[41 41 41 41 41 41 41 41 41  0]xS 
+621 4487 M (pel)[41 41  0]xS 
+0 0 scol 683 4560 M ("H11")[41 41 41 41  0]xS 
+: N 950 4521 39 43 rp C 
+1 0 scol  L ; N 990 4542 M 908 4542 I K 
+N 990 4543 M 908 4543 I K 
+0.445 0 scol 643 4706 M (T3)[41  0]xS 
+642 4706 M (T3)[41  0]xS 
+580 4779 M (Timer)[41 41 41 41  0]xS 
+601 4852 M (fuer)[41 41 41  0]xS 
+478 4925 M (Gruenphase)[41 41 41 41 41 41 41 41 41  0]xS 
+580 4998 M ( fuer)[41 41 41 41  0]xS 
+478 5071 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+662 5144 M (r)S 
+0 0 scol 724 5217 M ("T3")[41 41 41  0]xS 
+N 990 5199 M 990 5187 981 5178 970 5178 -c 958 5178 950 5187 950 5199 -c 950 5210 958 5220 970 5220 -c 981 5220 990 5210 990 5199 -c C 
+: 1 0 scol  O ; K 
+N 949 5199 M 908 5199 I K 
+N 949 5200 M 908 5200 I K 
+N 1360 5199 M 1404 5199 I K 
+N 1360 5200 M 1404 5200 I K 
+0.445 0 scol 1586 4779 M (A0.1)[41 41 41  0]xS 
+1585 4779 M (A0.1)[41 41 41  0]xS 
+1544 4852 M (Gruene)[41 41 41 41 41  0]xS 
+1462 4925 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+1544 4998 M (rampel)[41 41 41 41 41  0]xS 
+0 0 scol 1585 5071 M ("H2")[41 41 41  0]xS 
+N 1401 5199 M 1404 5199 I K 
+N 1401 5200 M 1404 5200 I K 
+: N 1442 5178 39 43 rp C 
+1 0 scol  L ; N 1482 5199 M 1400 5199 I K 
+N 1482 5200 M 1400 5200 I K 
+LH
+(%%[Page: 3]%%) = 
+%%PageTrailer
+
+%%Page: 4 4
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol F0S53 Ji 
+412 70 M (SIMATIC             Ampel_Gruppe03\\SIMATIC 300\(1\)\\CPU 315-2 DP\\...\\ 10.10.2005 11:37:03)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+412 169 M (                                   FC1 - <offline>                                     )
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+N 4732 194 M 405 194 I 405 203 I 4732 203 I 4732 194 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 4 von 5)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+F0S44 Ji 
+431 540 M (Netzwerk: 8      Timerstart fuer Verzoegerung der Gelbphase fuer Autos)
+[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41  0]xS 
+1 Lj 1 Lc 7 Lw solid : 407 469 4275 11 rc N 407 474 M 4682 474 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 469 6 114 rc N 407 474 M 407 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 469 5 114 rc N 4682 474 M 4682 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 572 4275 11 rc N 407 577 M 4682 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 686 M (Timerstart fuer Verzoegerung der Gelbphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 554 6 169 rc N 407 559 M 407 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 554 5 169 rc N 4682 559 M 4682 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 712 4275 11 rc N 407 717 M 4682 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 1481 2023 6 295 rp C 
+1 0 scol  L ; 1 Lw solid N 1483 2024 M 1852 2024 I K 
+N 1852 2024 M 1852 2316 I K 
+N 1852 2316 M 1483 2316 I K 
+N 1483 2316 M 1483 2024 I K 
+1627 2080 M (SE)[41  0]xS 
+: N 989 782 6 1390 rp C 
+1 0 scol  L ; N 991 783 M 1360 783 I K 
+N 1360 783 M 1360 2170 I K 
+N 1360 2170 M 991 2170 I K 
+N 991 2170 M 991 783 I K 
+1156 839 M (&)S 
+0.445 0 scol 602 910 M (M0.0)[41 41 41  0]xS 
+601 910 M (M0.0)[41 41 41  0]xS 
+560 983 M (Merker)[41 41 41 41 41  0]xS 
+601 1056 M (fuer)[41 41 41  0]xS 
+478 1129 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+560 1202 M (derung)[41 41 41 41 41  0]xS 
+601 1275 M (fuer)[41 41 41  0]xS 
+478 1348 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+662 1421 M (r)S 
+0 0 scol 724 1494 M ("M0")[41 41 41  0]xS 
+: N 950 1455 39 43 rp C 
+1 0 scol  L ; N 990 1476 M 908 1476 I K 
+N 990 1477 M 908 1477 I K 
+0.445 0 scol 643 1640 M (T3)[41  0]xS 
+642 1640 M (T3)[41  0]xS 
+580 1713 M (Timer)[41 41 41 41  0]xS 
+601 1786 M (fuer)[41 41 41  0]xS 
+478 1859 M (Gruenphase)[41 41 41 41 41 41 41 41 41  0]xS 
+580 1932 M ( fuer)[41 41 41 41  0]xS 
+478 2005 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+662 2078 M (r)S 
+0 0 scol 724 2151 M ("T3")[41 41 41  0]xS 
+: N 950 2112 39 43 rp C 
+1 0 scol  L ; N 990 2133 M 908 2133 I K 
+N 990 2134 M 908 2134 I K 
+N 1360 2133 M 1404 2133 I K 
+N 1360 2134 M 1404 2134 I K 
+0.445 0 scol 1627 1421 M (T4)[41  0]xS 
+1626 1421 M (T4)[41  0]xS 
+1564 1494 M (Timer)[41 41 41 41  0]xS 
+1585 1567 M (fuer)[41 41 41  0]xS 
+1462 1640 M (Verzoegeru)[41 41 41 41 41 41 41 41 41  0]xS 
+1544 1713 M (ng der)[41 41 41 41 41  0]xS 
+1482 1786 M (Gelbphase)[41 41 41 41 41 41 41 41  0]xS 
+1585 1859 M (fuer)[41 41 41  0]xS 
+1564 1932 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 1585 2005 M ("T4")[41 41 41  0]xS 
+N 1401 2133 M 1404 2133 I K 
+N 1401 2134 M 1404 2134 I K 
+: N 1442 2112 39 43 rp C 
+1 0 scol  L ; N 1482 2133 M 1400 2133 I K 
+N 1482 2134 M 1400 2134 I K 
+1134 2297 M (S5T#6S)[41 41 41 41 41  0]xS 
+: N 1442 2258 39 43 rp C 
+1 0 scol  L ; N 1482 2279 M 1400 2279 I K 
+N 1482 2280 M 1400 2280 I K 
+1486 2297 M (TW)[41  0]xS 
+431 2657 M (Netzwerk: 9      Rotphase fuer Fussgaenger)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41  0]xS 
+7 Lw solid : 407 2586 4275 11 rc N 407 2591 M 4682 2591 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2586 6 114 rc N 407 2591 M 407 2694 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2586 5 114 rc N 4682 2591 M 4682 2694 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2689 4275 11 rc N 407 2694 M 4682 2694 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 2803 M (Rotphase fuer Fussgaenger)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 2671 6 169 rc N 407 2676 M 407 2834 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2671 5 169 rc N 4682 2676 M 4682 2834 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2829 4275 11 rc N 407 2834 M 4682 2834 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 2957 4724 6 149 rp C 
+1 0 scol  L ; 1 Lw solid N 2959 4725 M 3328 4725 I K 
+N 3328 4725 M 3328 4871 I K 
+N 3328 4871 M 2959 4871 I K 
+N 2959 4871 M 2959 4725 I K 
+3124 4781 M (=)S 
+: N 2465 3994 6 879 rp C 
+1 0 scol  L ; N 2467 3995 M 2836 3995 I K 
+N 2836 3995 M 2836 4871 I K 
+N 2836 4871 M 2467 4871 I K 
+N 2467 4871 M 2467 3995 I K 
+2591 4051 M (>=1)[41 41  0]xS 
+: N 1973 3264 6 879 rp C 
+1 0 scol  L ; N 1975 3265 M 2344 3265 I K 
+N 2344 3265 M 2344 4141 I K 
+N 2344 4141 M 1975 4141 I K 
+N 1975 4141 M 1975 3265 I K 
+2140 3321 M (&)S 
+: N 989 2899 6 1244 rp C 
+1 0 scol  L ; N 991 2900 M 1360 2900 I K 
+N 1360 2900 M 1360 4141 I K 
+N 1360 4141 M 991 4141 I K 
+N 991 4141 M 991 2900 I K 
+1115 2956 M (>=1)[41 41  0]xS 
+0.445 0 scol 643 3027 M (T2)[41  0]xS 
+642 3027 M (T2)[41  0]xS 
+580 3100 M (Timer)[41 41 41 41  0]xS 
+601 3173 M (fuer)[41 41 41  0]xS 
+498 3246 M (Gelbphase)[41 41 41 41 41 41 41 41  0]xS 
+601 3319 M (fuer)[41 41 41  0]xS 
+580 3392 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 724 3465 M ("T2")[41 41 41  0]xS 
+N 990 3447 M 990 3435 981 3426 970 3426 -c 958 3426 950 3435 950 3447 -c 950 3458 958 3468 970 3468 -c 981 3468 990 3458 990 3447 -c C 
+: 1 0 scol  O ; K 
+N 949 3447 M 908 3447 I K 
+N 949 3448 M 908 3448 I K 
+0.445 0 scol 643 3611 M (T3)[41  0]xS 
+642 3611 M (T3)[41  0]xS 
+580 3684 M (Timer)[41 41 41 41  0]xS 
+601 3757 M (fuer)[41 41 41  0]xS 
+478 3830 M (Gruenphase)[41 41 41 41 41 41 41 41 41  0]xS 
+580 3903 M ( fuer)[41 41 41 41  0]xS 
+478 3976 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+662 4049 M (r)S 
+0 0 scol 724 4122 M ("T3")[41 41 41  0]xS 
+: N 950 4083 39 43 rp C 
+1 0 scol  L ; N 990 4104 M 908 4104 I K 
+N 990 4105 M 908 4105 I K 
+N 1360 4104 M 1404 4104 I K 
+N 1360 4105 M 1404 4105 I K 
+0.445 0 scol 1586 3392 M (M0.0)[41 41 41  0]xS 
+1585 3392 M (M0.0)[41 41 41  0]xS 
+1544 3465 M (Merker)[41 41 41 41 41  0]xS 
+1585 3538 M (fuer)[41 41 41  0]xS 
+1462 3611 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+1544 3684 M (derung)[41 41 41 41 41  0]xS 
+1585 3757 M (fuer)[41 41 41  0]xS 
+1462 3830 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+1646 3903 M (r)S 
+0 0 scol 1708 3976 M ("M0")[41 41 41  0]xS 
+: N 1934 3937 39 43 rp C 
+1 0 scol  L ; N 1974 3958 M 1892 3958 I K 
+N 1974 3959 M 1892 3959 I K 
+N 1401 4104 M 1896 4104 I K 
+N 1401 4105 M 1896 4105 I K 
+: N 1934 4083 39 43 rp C 
+1 0 scol  L ; N 1974 4104 M 1892 4104 I K 
+N 1974 4105 M 1892 4105 I K 
+N 2344 4104 M 2388 4104 I K 
+N 2344 4105 M 2388 4105 I K 
+N 2385 4104 M 2388 4104 I K 
+N 2385 4105 M 2388 4105 I K 
+: N 2426 4083 39 43 rp C 
+1 0 scol  L ; N 2466 4104 M 2384 4104 I K 
+N 2466 4105 M 2384 4105 I K 
+0.445 0 scol 2078 4268 M (M0.0)[41 41 41  0]xS 
+2077 4268 M (M0.0)[41 41 41  0]xS 
+2036 4341 M (Merker)[41 41 41 41 41  0]xS 
+2077 4414 M (fuer)[41 41 41  0]xS 
+1954 4487 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+2036 4560 M (derung)[41 41 41 41 41  0]xS 
+2077 4633 M (fuer)[41 41 41  0]xS 
+1954 4706 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+2138 4779 M (r)S 
+0 0 scol 2200 4852 M ("M0")[41 41 41  0]xS 
+N 2466 4834 M 2466 4822 2457 4813 2446 4813 -c 2434 4813 2426 4822 2426 4834 -c 2426 4845 2434 4855 2446 4855 -c 2457 4855 2466 4845 2466 4834 -c C 
+: 1 0 scol  O ; K 
+N 2425 4834 M 2384 4834 I K 
+N 2425 4835 M 2384 4835 I K 
+N 2836 4834 M 2880 4834 I K 
+N 2836 4835 M 2880 4835 I K 
+0.445 0 scol 3062 4414 M (A0.0)[41 41 41  0]xS 
+3061 4414 M (A0.0)[41 41 41  0]xS 
+3061 4487 M (Rote)[41 41 41  0]xS 
+2938 4560 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+3020 4633 M (rampel)[41 41 41 41 41  0]xS 
+0 0 scol 3061 4706 M ("H1")[41 41 41  0]xS 
+N 2877 4834 M 2880 4834 I K 
+N 2877 4835 M 2880 4835 I K 
+: N 2918 4813 39 43 rp C 
+1 0 scol  L ; N 2958 4834 M 2876 4834 I K 
+N 2958 4835 M 2876 4835 I K 
+LH
+(%%[Page: 4]%%) = 
+%%PageTrailer
+
+%%Page: 5 5
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol F0S53 Ji 
+412 70 M (SIMATIC             Ampel_Gruppe03\\SIMATIC 300\(1\)\\CPU 315-2 DP\\...\\ 10.10.2005 11:37:03)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+412 169 M (                                   FC1 - <offline>                                     )
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+N 4732 194 M 405 194 I 405 203 I 4732 203 I 4732 194 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 5 von 5)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+F0S44 Ji 
+431 540 M (Netzwerk: 10     Timerstart fuer Rot-/Gelbphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+1 Lj 1 Lc 7 Lw solid : 407 469 4275 11 rc N 407 474 M 4682 474 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 469 6 114 rc N 407 474 M 407 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 469 5 114 rc N 4682 474 M 4682 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 572 4275 11 rc N 407 577 M 4682 577 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 686 M (Timerstart fuer Rot-/Gelbphase fuer Autos)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41  0]xS 
+: 407 554 6 169 rc N 407 559 M 407 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 554 5 169 rc N 4682 559 M 4682 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 712 4275 11 rc N 407 717 M 4682 717 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 1481 2096 6 295 rp C 
+1 0 scol  L ; 1 Lw solid N 1483 2097 M 1852 2097 I K 
+N 1852 2097 M 1852 2389 I K 
+N 1852 2389 M 1483 2389 I K 
+N 1483 2389 M 1483 2097 I K 
+1627 2153 M (SE)[41  0]xS 
+: N 989 782 6 1463 rp C 
+1 0 scol  L ; N 991 783 M 1360 783 I K 
+N 1360 783 M 1360 2243 I K 
+N 1360 2243 M 991 2243 I K 
+N 991 2243 M 991 783 I K 
+1156 839 M (&)S 
+0.445 0 scol 602 910 M (M0.0)[41 41 41  0]xS 
+601 910 M (M0.0)[41 41 41  0]xS 
+560 983 M (Merker)[41 41 41 41 41  0]xS 
+601 1056 M (fuer)[41 41 41  0]xS 
+478 1129 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+560 1202 M (derung)[41 41 41 41 41  0]xS 
+601 1275 M (fuer)[41 41 41  0]xS 
+478 1348 M (Fussgaenge)[41 41 41 41 41 41 41 41 41  0]xS 
+662 1421 M (r)S 
+0 0 scol 724 1494 M ("M0")[41 41 41  0]xS 
+: N 950 1455 39 43 rp C 
+1 0 scol  L ; N 990 1476 M 908 1476 I K 
+N 990 1477 M 908 1477 I K 
+0.445 0 scol 643 1640 M (T4)[41  0]xS 
+642 1640 M (T4)[41  0]xS 
+580 1713 M (Timer)[41 41 41 41  0]xS 
+601 1786 M (fuer)[41 41 41  0]xS 
+478 1859 M (Verzoegeru)[41 41 41 41 41 41 41 41 41  0]xS 
+560 1932 M (ng der)[41 41 41 41 41  0]xS 
+498 2005 M (Gelbphase)[41 41 41 41 41 41 41 41  0]xS 
+601 2078 M (fuer)[41 41 41  0]xS 
+580 2151 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 724 2224 M ("T4")[41 41 41  0]xS 
+: N 950 2185 39 43 rp C 
+1 0 scol  L ; N 990 2206 M 908 2206 I K 
+N 990 2207 M 908 2207 I K 
+N 1360 2206 M 1404 2206 I K 
+N 1360 2207 M 1404 2207 I K 
+0.445 0 scol 1627 1640 M (T5)[41  0]xS 
+1626 1640 M (T5)[41  0]xS 
+1564 1713 M (Timer)[41 41 41 41  0]xS 
+1585 1786 M (fuer)[41 41 41  0]xS 
+1462 1859 M (Rot-/Gelbp)[41 41 41 41 41 41 41 41 41  0]xS 
+1482 1932 M (hase fuer)[41 41 41 41 41 41 41 41  0]xS 
+1564 2005 M (Autos)[41 41 41 41  0]xS 
+0 0 scol 1585 2078 M ("T5")[41 41 41  0]xS 
+N 1401 2206 M 1404 2206 I K 
+N 1401 2207 M 1404 2207 I K 
+: N 1442 2185 39 43 rp C 
+1 0 scol  L ; N 1482 2206 M 1400 2206 I K 
+N 1482 2207 M 1400 2207 I K 
+1134 2370 M (S5T#3S)[41 41 41 41 41  0]xS 
+: N 1442 2331 39 43 rp C 
+1 0 scol  L ; N 1482 2352 M 1400 2352 I K 
+N 1482 2353 M 1400 2353 I K 
+1486 2370 M (TW)[41  0]xS 
+431 2730 M (Netzwerk: 11     Timerstart fuer Verzoegerung der Gruenanforderung)
+[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41  0]xS 
+7 Lw solid : 407 2659 4275 11 rc N 407 2664 M 4682 2664 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2659 6 114 rc N 407 2664 M 407 2767 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2659 5 114 rc N 4682 2664 M 4682 2767 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2762 4275 11 rc N 407 2767 M 4682 2767 I : [ 1 0 0 1 407 340 ] concat K 
+; ; 419 2876 M (Timerstart fuer Verzoegerung der Gruenanforderung)[41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: 407 2744 6 169 rc N 407 2749 M 407 2907 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 4677 2744 5 169 rc N 4682 2749 M 4682 2907 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : 407 2902 4275 11 rc N 407 2907 M 4682 2907 I : [ 1 0 0 1 407 340 ] concat K 
+; ; : N 1481 3556 6 295 rp C 
+1 0 scol  L ; 1 Lw solid N 1483 3557 M 1852 3557 I K 
+N 1852 3557 M 1852 3849 I K 
+N 1852 3849 M 1483 3849 I K 
+N 1483 3849 M 1483 3557 I K 
+1627 3613 M (SE)[41  0]xS 
+: N 989 3264 6 441 rp C 
+1 0 scol  L ; N 991 3265 M 1360 3265 I K 
+N 1360 3265 M 1360 3703 I K 
+N 1360 3703 M 991 3703 I K 
+N 991 3703 M 991 3265 I K 
+1156 3321 M (&)S 
+0.445 0 scol 602 3392 M (A0.7)[41 41 41  0]xS 
+601 3392 M (A0.7)[41 41 41  0]xS 
+560 3465 M (Gruene)[41 41 41 41 41  0]xS 
+478 3538 M (Verkehrsam)[41 41 41 41 41 41 41 41 41  0]xS 
+621 3611 M (pel)[41 41  0]xS 
+0 0 scol 683 3684 M ("H13")[41 41 41 41  0]xS 
+: N 950 3645 39 43 rp C 
+1 0 scol  L ; N 990 3666 M 908 3666 I K 
+N 990 3667 M 908 3667 I K 
+N 1360 3666 M 1404 3666 I K 
+N 1360 3667 M 1404 3667 I K 
+0.445 0 scol 1627 3027 M (T6)[41  0]xS 
+1626 3027 M (T6)[41  0]xS 
+1564 3100 M (Timer)[41 41 41 41  0]xS 
+1585 3173 M (fuer)[41 41 41  0]xS 
+1462 3246 M (Verzoegeru)[41 41 41 41 41 41 41 41 41  0]xS 
+1544 3319 M (ng der)[41 41 41 41 41  0]xS 
+1462 3392 M (Gruenanfor)[41 41 41 41 41 41 41 41 41  0]xS 
+1544 3465 M (derung)[41 41 41 41 41  0]xS 
+0 0 scol 1585 3538 M ("T6")[41 41 41  0]xS 
+N 1401 3666 M 1404 3666 I K 
+N 1401 3667 M 1404 3667 I K 
+: N 1442 3645 39 43 rp C 
+1 0 scol  L ; N 1482 3666 M 1400 3666 I K 
+N 1482 3667 M 1400 3667 I K 
+1134 3830 M (S5T#1S)[41 41 41 41 41  0]xS 
+: N 1442 3791 39 43 rp C 
+1 0 scol  L ; N 1482 3812 M 1400 3812 I K 
+N 1482 3813 M 1400 3813 I K 
+1486 3830 M (TW)[41  0]xS 
+LH
+(%%[Page: 5]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 10 11 585 831
+%%DocumentNeededResources: 
+%%+ font Courier
+%%+ font Courier-Bold
+%%+ font Helvetica-Bold
+%%+ font Helvetica
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_VMErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+%%+ procset Pscript_Win_Euro_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L2 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 5
+(%%[LastPage]%%) = 
+%%EOF
+
