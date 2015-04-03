@@ -3,9 +3,9 @@ Steuerung einer Ampelanlage mit einer Speicherprogrammierbaren Steuerung ( SPS )
 
 Das Software-Projekt wurde mit der Studenten-Version der kommerziellen Software SIEMENS STEP7 V5.2 erstellt. Die Software ist auf SIEMENS Simatic S7-300 SPS-Systemen lauffähig.
 
-![Ampel](/doc/images/ampel01.png "Ampel") 
-![Ampel](/doc/images/ampel02.png "Ampel") 
-![Ampel](/doc/images/ampel03.png "Ampel") 
+![Ampel](/doc/images/ampel1.png "Ampel") 
+![Ampel](/doc/images/ampel2.png "Ampel") 
+![Ampel](/doc/images/ampel3.png "Ampel") 
 
 Wikipedia "STEP 7"
 http://de.wikipedia.org/wiki/STEP_7
